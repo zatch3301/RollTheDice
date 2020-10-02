@@ -20,6 +20,10 @@
 
 #dice-1 { top: 120px; }
 #dice-2 { top: 250px; }
+#last-dice-rolled-p1-1 {left: 20%;}
+#last-dice-rolled-p1-2 {left: 30%;}
+#last-dice-rolled-p2-1 {left: 70%;}
+#last-dice-rolled-p2-2 {left: 80%;}
 
 
 * {
@@ -82,12 +86,23 @@ body {
     position: relative;
 }
 
+.player-roll {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 130px;
+    position: relative;
+}
+
 .player-score {
     text-align: center;
     font-size: 80px;
     font-weight: 100;
     color: #EB4D4D;
-    margin-bottom: 130px;
+    
 }
 
 .active { background-color: #f7f7f7; }
@@ -170,5 +185,13 @@ i {
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
 }
 
+.last-roll-dice {
+    position: absolute;
+    left: 20%;
+    top: 350px;
+    transform: translateX(-50%);
+    height: 50px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
