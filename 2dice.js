@@ -25,6 +25,20 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         document.getElementById('dice-1').src = 'dice-' + dice1 + '.png';
         document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
 
+        //2.5 Display in Last roll
+        console.log(activePlayer)
+        if(activePlayer==0){
+            document.getElementById('last-dice-rolled-p1-1').style.display = 'block';
+            document.getElementById('last-dice-rolled-p1-2').style.display = 'block';
+            document.getElementById('last-dice-rolled-p1-1').src = 'dice-' + dice1 + '.png';
+            document.getElementById('last-dice-rolled-p1-2').src = 'dice-'  + dice2 + '.png';
+        }else{
+            document.getElementById('last-dice-rolled-p2-1').style.display = 'block';
+            document.getElementById('last-dice-rolled-p2-2').style.display = 'block';
+            document.getElementById('last-dice-rolled-p2-1').src = 'dice-' + dice1 + '.png';
+            document.getElementById('last-dice-rolled-p2-2').src = 'dice-' + dice2 + '.png';
+        }
+
         //3. Update the round score IF the rolled number was NOT a 1
         if (dice1 !== 1 && dice2 !== 1) {
             //Add score
@@ -118,6 +132,10 @@ function init() {
 
     document.getElementById('dice-1').style.display = 'none';
     document.getElementById('dice-2').style.display = 'none';
+    document.getElementById('last-dice-rolled-p1-1').style.display = 'none';
+    document.getElementById('last-dice-rolled-p1-2').style.display = 'none';
+    document.getElementById('last-dice-rolled-p2-1').style.display = 'none';
+    document.getElementById('last-dice-rolled-p2-2').style.display = 'none';
 
     document.getElementById('score-0').textContent = '0';
     document.getElementById('score-1').textContent = '0';

@@ -28,7 +28,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         diceDOM.style.display = 'block';
         diceDOM.src = 'dice-' + dice + '.png';
 
-
+        
         //3. Update the round score IF the rolled number was NOT a 1
         if (dice !== 1) {
             //Add score
