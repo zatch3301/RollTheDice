@@ -9,7 +9,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/zatch3301/RollTheDice?logo=github)](https://github.com/zatch3301/RollTheDice/issues)
 ![Website](https://img.shields.io/website?down_color=red&down_message=snap%21&up_color=green&up_message=it%27s%20up%21&url=https%3A%2F%2Furlshort.dsctiet.tech%2F)
 
-## <p align="center"><img src="https://res.cloudinary.com/dnrxmm7a0/image/upload/v1601723398/dice_tusblr.jpg" width="300"> </p>
+## <p align="center"><img src="https://res.cloudinary.com/dnrxmm7a0/image/upload/v1601723398/dice_tusblr.jpg" width="600"> </p>
 
 ### GAME RULES:
 
