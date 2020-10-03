@@ -6,10 +6,13 @@
 
 # [Play](https://zatch3301.github.io/RollTheDice/)
 
- [![GitHub issues](https://img.shields.io/github/issues/zatch3301/RollTheDice?logo=github)](https://github.com/zatch3301/RollTheDice/issues)
+[![GitHub issues](https://img.shields.io/github/issues/zatch3301/RollTheDice?logo=github)](https://github.com/zatch3301/RollTheDice/issues)
 ![Website](https://img.shields.io/website?down_color=red&down_message=snap%21&up_color=green&up_message=it%27s%20up%21&url=https%3A%2F%2Furlshort.dsctiet.tech%2F)
 
+## <p align="center"><img src="https://res.cloudinary.com/dnrxmm7a0/image/upload/v1601723398/dice_tusblr.jpg" width="300"> </p>
+
 ### GAME RULES:
+
 - The game has 2 players, playing in rounds
 - In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
 - BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
